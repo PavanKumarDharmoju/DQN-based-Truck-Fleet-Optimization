@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+torch
+gym
+numpy
+pandas
+openpyxl
+jinja2
+os
+torch
+datetime
+copy
+random
+collections
+matplotlib

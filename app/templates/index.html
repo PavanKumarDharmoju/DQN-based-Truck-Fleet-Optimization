@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truck Fleet Management</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Truck Fleet Management</h1>
+    <form id="predict-form">
+        <div id="truck-inputs">
+            <div class="truck-input">
+                <label for="truck-0">Truck 0 (comma-separated values):</label>
+                <input type="text" id="truck-0" name="truck-0">
+            </div>
+        </div>
+        <button type="button" id="add-truck">Add Truck</button>
+        <button type="submit">Predict</button>
+    </form>
+    <h2>Prediction Results:</h2>
+    <pre id="results"></pre>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
